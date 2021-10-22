@@ -50,6 +50,7 @@ npm manifest:
       "@typescript-eslint/parser": "^5.1.0",
       "eslint": "^8.0.1",
       "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-config-prettier": "^8.3.0",
       "eslint-plugin-import": "^2.25.2",
       "ts-node-dev": "^1.1.8",
       "typescript": "^4.4.4"
@@ -761,6 +762,11 @@ Lockfile:
       confusing-browser-globals "^1.0.10"
       object.assign "^4.1.2"
       object.entries "^1.1.2"
+  
+  eslint-config-prettier@^8.3.0:
+    version "8.3.0"
+    resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
+    integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
   
   eslint-import-resolver-node@^0.3.6:
     version "0.3.6"
