@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/lang/pt-BR/
 
 - GraphQL Server
 - Prettier config to eslint
+- Dockerfile and Docker Compose
 
 ### Changed
 
