@@ -1,0 +1,34 @@
+{
+  "name": "coordinate-stock-graphql",
+  "version": "0.0.1",
+  "description": "A rewrite of Coordinate-Stock but using GraphQL",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ySnoopyDogy/CoordinateStock-GraphQL.git",
+  "author": "ySnoopyDogy <luxanna@menherabot.xyz>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "start": "node .",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsnd --ignore node_modules --transpile-only --no-notify --respawn src/server.ts"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-graphql": "^0.8.5",
+    "@types/koa-mount": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "graphql": "^15.6.1",
+    "koa": "^2.13.4",
+    "koa-graphql": "^0.9.0",
+    "koa-mount": "^4.0.0"
+  }
+}
