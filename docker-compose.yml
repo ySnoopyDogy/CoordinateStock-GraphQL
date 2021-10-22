@@ -1,4 +1,4 @@
-version: "2"
+version: "3.7"
 services:
   app:
     build: .
@@ -9,10 +9,8 @@ services:
 
   database:
     image: mongo:focal
-    volumes:
-      - ./data:/data/db
-       environment:
+    environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: mongodb
     ports:
-      - "27017:27017"
+      - "27018:27018"

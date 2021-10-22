@@ -2,7 +2,7 @@
   "name": "coordinate-stock-graphql",
   "version": "0.0.1",
   "description": "A rewrite of Coordinate-Stock but using GraphQL",
-  "main": "dist/index.js",
+  "main": "dist/server.js",
   "repository": "https://github.com/ySnoopyDogy/CoordinateStock-GraphQL.git",
   "author": "ySnoopyDogy <luxanna@menherabot.xyz>",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "build": "tsc",
     "start": "node .",
     "deploy": "yarn build && yarn start",
+    "docker:up": "docker-compose up -d",
     "typecheck": "tsc --noEmit",
     "dev": "tsnd --ignore node_modules --transpile-only --no-notify --respawn src/server.ts"
   },
@@ -32,6 +33,7 @@
     "graphql": "^15.6.1",
     "koa": "^2.13.4",
     "koa-graphql": "^0.9.0",
-    "koa-mount": "^4.0.0"
+    "koa-mount": "^4.0.0",
+    "mongoose": "^6.0.12"
   }
 }
