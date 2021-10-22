@@ -10,7 +10,6 @@
     <br />
   </p>
 
-
 ## ⚖️ | Licença
 
 Distribuído sob a licença MIT. Consulte `LICENSE` para obter mais informações.
