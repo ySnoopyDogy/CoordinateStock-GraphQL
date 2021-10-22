@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/lang/pt-BR/
 - Prettier config to eslint
 - Dockerfile and Docker Compose
 - Connection to mongodb
+- Add createOne, deleteOne and updateOne to mutations
 
 ### Changed
 
