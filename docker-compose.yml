@@ -1,4 +1,4 @@
-version: "3"
+version: "3.4"
 services:
   app:
     build: .
@@ -12,5 +12,8 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - ./data:/data/db
-    command: mongod
+      - data:/data/db
+
+volumes:
+  data:
+    name: CoordinateStock_001

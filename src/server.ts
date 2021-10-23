@@ -1,7 +1,7 @@
 import Koa from "koa";
 import mount from "koa-mount";
 import graphqlHTTP from "koa-graphql";
-import schema from "./graphql/schema";
+import schema from "./schema/schema";
 import initDB from "./database";
 
 initDB();
@@ -13,7 +13,7 @@ app.use(
     "/graphql",
     graphqlHTTP({
       schema,
-      graphiql: true,
+      graphiql: process.env.NODE_ENV !== "production",
     })
   )
 );

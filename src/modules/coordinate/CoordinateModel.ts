@@ -1,5 +1,16 @@
 import { Schema, model } from "mongoose";
-import { CoordsSchema } from "../../types";
+
+type WorldTypes = "OVERWORLD" | "NETHER" | "END";
+
+interface CoordsSchema {
+  name: string;
+  description: string;
+  world: WorldTypes;
+  createdTimestamp: number;
+  x: number;
+  y: number;
+  z: number;
+}
 
 const CoordinatesSchema = new Schema({
   name: { type: String, required: true },

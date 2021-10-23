@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- Maps model
+
+### Changed
+
+- Project file organization changed to folder-by-feature
+
 ## [0.0.1] 2021-10-22
 
 ### Added
